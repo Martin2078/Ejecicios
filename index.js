@@ -87,36 +87,36 @@ const familia=["Mesa","Estufa","Plato","Escritorio","Heladera"]
 let textoAleatorio= `En la ${familia[4]} tengo ${numeros[3]} ${frutas[1]}s  `
 console.log(textoAleatorio);
 
-// let edadCompañero=prompt("Ingrese la edad de su compañero")
+let edadCompañero=prompt("Ingrese la edad de su compañero")
 
-// if(soyMayorDeEdad<edadCompañero){
-//     console.log("Mi edad es menor a la de mi compañero: true");
-//     console.log("Mi edad es igual a la de mi compañero: false");
-//     console.log("Mi edad es mayor a la de mi compañero: false");
-// }
-// else if(soyMayorDeEdad>edadCompañero){
-//     console.log("Mi edad es menor a la de mi compañero: false" );
-//     console.log("Mi edad es igual a la de mi compañero: false" );
-//     console.log("Mi edad es mayor a la de mi compañero: true");
-// }
-// else{
-//     console.log("Mi edad es menor a la de mi compañero: false");
-//     console.log("Mi edad es igual a la de mi compañero: true");
-//     console.log("Mi edad es mayor a la de mi compañero: false");
-// }
+if(soyMayorDeEdad<edadCompañero){
+    console.log("Mi edad es menor a la de mi compañero: true");
+    console.log("Mi edad es igual a la de mi compañero: false");
+    console.log("Mi edad es mayor a la de mi compañero: false");
+}
+else if(soyMayorDeEdad>edadCompañero){
+    console.log("Mi edad es menor a la de mi compañero: false" );
+    console.log("Mi edad es igual a la de mi compañero: false" );
+    console.log("Mi edad es mayor a la de mi compañero: true");
+}
+else{
+    console.log("Mi edad es menor a la de mi compañero: false");
+    console.log("Mi edad es igual a la de mi compañero: true");
+    console.log("Mi edad es mayor a la de mi compañero: false");
+}
 
-// let edad= prompt("Ingrese edad:")
-// let altura = prompt("Ingrese altura (cm):")
-// let puedeSubir
+let edad= prompt("Ingrese edad:")
+let altura = prompt("Ingrese altura (cm):")
+let puedeSubir
 
-// if(edad>6 && altura>120){
-//      puedeSubir =  true    
-// }
-// else{
-//      puedeSubir= false
-// }
+if(edad>6 && altura>120){
+     puedeSubir =  true    
+}
+else{
+     puedeSubir= false
+}
 
-// console.log(`Puede subir a la atracción: ${puedeSubir}`);
+console.log(`Puede subir a la atracción: ${puedeSubir}`);
 
 let pase = prompt("Ingrese pase:")
 let saldo = prompt("Ingrese saldo:")
