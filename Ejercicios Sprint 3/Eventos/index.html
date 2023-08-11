@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body >
+    <div class="d-flex gap-5">
+        <div class="d-flex flex-column align-items-center gap-1 border border-black rounded p-5">
+            <p>Ejercicio 1</p>
+            <div id="square" class="bg-secondary"></div>
+            <button id="button">Cambiar</button>
+        </div>
+        <div class="d-flex flex-column align-items-center gap-1 border border-black rounded p-3">
+            <p>Ejercicio 2</p>
+            <div id="square2" class="bg-body-secondary"></div>
+            <input class="w-75" id="input-text" type="text">
+            <button id="button2">Reset</button>
+        </div>
+    </div>
+    <div class="d-flex gap-5 align-items-center">
+
+        <div class=" d-flex flex-column gap-4 border border-black rounded p-3">
+            <div class="d-flex flex-column">
+                <p>Ejercicio 3</p>
+                <h3 class="fs-6 fw-bolder">ESTATURA</h3>
+                <label for="">en centimetros:</label>
+                <input id="input-cm" type="number">
+            </div>
+            <div class="d-flex flex-column">
+                <h3 class="fs-6 fw-bolder">PESO</h3>
+                <label for="">en kilogramos:</label>
+                <input id="input-kg" type="number">
+            </div>
+            <button id="buttonResults" class="bg-primary w-50">Calcular</button>
+            <label for="">Resultado:
+            <input id="input-show-results" type="text"></label>
+        </div>
+
+        <div class="d-flex flex-column gap-3 border border-black rounded p-3">
+            <p>Ejercicio 4</p>
+            <label for="">
+                <input id="input-peso" type="number"> Peso argentino
+            </label>
+            <label for="">
+                <input id="input-dolar" type="number"> Dolar estadounidense
+            </label>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
